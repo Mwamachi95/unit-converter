@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4B5563;
+    text-align: center;
+}
+
+#main {
+    margin: 55px auto;
+    padding: 0;
+    width: 550px;
+    height: 729px;
+    background: #1F2937;
+    border: none;
+}
+
+#header {
+    height: 285px;
+    background: #0C4A6E;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1#title {
+    margin: 33px auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#input-el {
+    margin: 0 auto 27px;
+    min-width: 117px;
+    max-width: 500px;
+    width: fit-content;
+    height: 83px;
+    border: 2px solid #0EA5E9;
+    border-radius: 5px;
+    background: transparent;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 58px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#convert-btn {
+    margin: auto auto 34px;
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#convert-btn:hover {
+    background-color: #0EA5E9;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#length {
+    margin-top: 36px;
+}
+
+.box-el {
+    margin: 0 auto 23.43px;
+    width: 500px;
+    height: 108.57px;
+    background: #273549;
+    border: none;
+    border-radius: 10px 0 0;
+}
+
+h2#unit-desc {
+    color: #7DD3FC;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 30px auto 2px;
+}
+
+.output-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Remove number spinner in Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove number spinner in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
